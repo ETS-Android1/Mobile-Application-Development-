@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 try{
+                    //webView.loadUrl("https://www.google.com");
                     webView.loadUrl(url_);
                 }
                 catch (Exception e){
