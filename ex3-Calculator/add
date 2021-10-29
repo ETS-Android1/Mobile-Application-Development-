@@ -1,0 +1,6 @@
+in java:
+import com.fathzer.soft.javaluator.DoubleEvaluator;
+
+In Gradle Scripts - build gradle(Module)
+Inside dependencies add:
+implementation 'com.fathzer:javaluator:3.0.3'
