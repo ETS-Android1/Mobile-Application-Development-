@@ -6,4 +6,16 @@ File->SDK->Android->data(or media)->com->..file->files->file created
 
 zip
 shorturl.at/morMX
+http://shorturl.at/buvB9
+cyMOR
 device file explorer -> storage -> self -> primary -> Download-> madlab
+
+Intent next page content :
+Main activity
+Intent intent = new Intent(this, Page.class); 
+intent.putExtra("arg", getText()); // getText() SHOULD NOT be static!!!
+startActivity(intent);
+
+Second activity
+String passedArg = getIntent().getExtras().getString("arg");
+enteredValue.setText(passedArg);
